@@ -1,0 +1,127 @@
+#navback{
+                background-color:white;
+                height: 82px;
+  
+            }
+            
+           
+            
+              #navbar-collapse-header ul li a{
+               
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: white;
+            }
+
+            
+               #logo{
+                height: 50px;
+               width: 70%;
+                
+            }
+            
+
+           
+            #stay{
+                color: aliceblue;
+                font-weight:bold;
+                font-size: 16px;
+                text-align: center;
+            }
+             
+
+            
+            #select{
+                width: 210px;
+            }
+        
+            
+          
+            
+            #partnertext{
+                text-align: center;
+                 font-family: 'Scope One', sans-serif;
+                font-weight:bold;
+            }
+            
+             #menuitem{
+                margin-top: 15px;
+            }
+            
+              #media{
+                color: aliceblue;
+                font-weight: bold;
+                   margin-left: 63px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            #mediaspan{
+                margin-left: 60px;
+            }
+            
+            #footertext{
+                color: aliceblue;
+                font-weight: bold;
+                margin-left: 38px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            
+             #footer a{
+                color: aliceblue;  
+                 
+                  font-family: 'Scope One', sans-serif;
+                
+        
+            }
+                 #footer{
+                background-color:#696969;
+                border: 1px solid #696969;
+            }
+            
+            #partner{
+                width: 80%;
+                height: 10%;
+            }
+            
+            .img-thumbnail{
+                opacity:0.8;
+            }
+            
+            .img-thumbnail:hover{
+                transform: scale(1.1);
+                opacity: 2;
+                -webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+            }
+            
+               .fa{
+                opacity:0.8;
+            }
+            
+            
+             .fa:hover{
+                transform: scale(1.1);
+                opacity: 1;
+                -webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+            }
+            
+           h2{
+                text-align: center;
+          font-weight: bold;
+                 font-family: 'Scope One', sans-serif;
+            }
+            
+            p{
+                font-size: 15px;
+                text-align: center;
+                color: grey;
+              
+                        font-family: 'Roboto', serif;
+               
+            }
+            

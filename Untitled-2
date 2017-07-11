@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--BOOTSRAP-->
+                  <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+          <link href="datetimepicker/jquery.datetimepicker.css" rel="stylesheet">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Scope+One">
+        
+        <offline bootsrap and css link>
+         <link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.min.css"/>
+		          <script type="text/javascript" href="bootstrap\js\bootstrap.min.js"></script>
+        
+        
+        <style>
+                 #navback{
+                background-color:white;
+                height: 82px;
+  
+            }
+            
+           
+                #navbar-collapse-header ul li a{
+               
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: white;
+            }
+
+            
+               #logo{
+                height: 50px;
+               width: 70%;
+                
+            }
+            
+               p{
+                font-size: 15px;
+                text-align: center;
+                color: grey;
+              
+                        font-family: 'Roboto', serif;
+               
+            }
+            
+            #photo{
+                border:1px solid gray;
+                border-radius: 5px;
+                 margin-left: 22%;
+                width: 85%;          
+            } 
+            
+            #allevent{
+                width: 105%;
+                height: 290px;
+            }  
+            
+          
+           
+      
+           
+            #stay{
+                color: aliceblue;
+                font-weight:bold;
+                font-size: 16px;
+                text-align: center;
+            }
+             
+           
+            #find{
+                text-align: center;
+                color: white;
+                font-weight: bold;
+             
+            }
+            
+            h1{
+                text-align: center;
+                color:#696969;
+                 font-family: 'Roboto', serif;
+                font-weight:bold;
+            }
+            
+          
+            
+            #select{
+                width: 210px;
+            }
+            
+            
+              
+            h2{
+               margin-top: 60px;
+                color: #696969;
+                 font-family: 'Roboto', serif;
+                font-weight:bold;
+                margin-left: 17%;
+                
+            }
+            
+            
+              #wrapper{
+                border:1px solid aliceblue;
+                width: 100%;
+              
+                line-height: 50px;
+            }
+            
+            #wrapper a{
+                color: blue;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+                 font-family: 'Scope One', sans-serif;
+                font-weight:bold;
+            }
+            
+            #bellownav{
+                line-height: 70px;
+            }
+            
+            #partner{
+                width: 100%;
+            }
+            
+            #partnertext{
+                text-align: center;
+                 font-family: 'Scope One', sans-serif;
+                font-weight:bold;
+            }
+            
+             #menuitem{
+                margin-top: 15px;
+            }
+            
+              #media{
+                color: aliceblue;
+                font-weight: bold;
+                   margin-left: 63px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            #mediaspan{
+                margin-left: 60px;
+            }
+            
+            #footertext{
+                color: aliceblue;
+                font-weight: bold;
+                margin-left: 38px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            
+             #footer a{
+                color: aliceblue;  
+                 
+                  font-family: 'Scope One', sans-serif;
+                
+        
+            }
+                 #footer{
+                background-color:#696969;
+                border: 1px solid #696969;
+            }
+            
+            
+               .img-thumbnail{
+                opacity:0.8;
+            }
+            
+            .img-thumbnail:hover{
+                transform: scale(1.3);
+                opacity: 1;
+                -webkit-transform:scale(1.3);
+                -moz-transform:scale(1.3);
+            }
+            
+               .fa{
+                opacity:0.8;
+            }
+            
+            
+             .fa:hover{
+                transform: scale(1.1);
+                opacity: 1;
+                -webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+            }
+        </style>
+    </head>
+    
+    <body>
+       <div class="container">
+        <div class="row" >
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <header>   <!--Header SEction of the site -->
+                        <nav class="navbar navbar-default navbar-fixed-top" id="navback">
+                
+                            <div class="container" >
+                                <div class="navbar-header">
+                                    <button type="button" data-toggle="collapse" data-target="#navbar-collapse-header" class="navbar-toggle collapsed">
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a href="#" class="navbar-brand ">
+                                        <img src="images/logo2.PNG"  id="logo"/>
+                                    </a>
+                                </div>
+                                <div class="collapse navbar-collapse" id="navbar-collapse-header">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active" id="menuitem"><a href="PartyVendor.html">&nbsp;&nbsp;&nbsp;<i class="fa fa-home fa-fw" style="font-size:17px;color:blue;"></i>Home</a></li>
+                                        
+                                        <li id="menuitem"><a href="#">&nbsp;&nbsp;&nbsp;<i class="fa fa-pencil fa-fw" style="font-size:17px;color:blue;"></i>Blog</a></li> 
+                                        
+                                        <li class="dropdown" id="menuitem"> 
+                                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">&nbsp;&nbsp;&nbsp;<i class="fa fa-asl-interpreting fa-fw" style="font-size:17px;color:blue;"></i> Portfolio <span class="caret"></span> </a> 
+                                            <ul class="dropdown-menu"> 
+                                                <li><a href="#">Gallery</a></li>
+                                                  <li class="divider"></li> 
+                                                <li><a href="#">Testimony</a></li> 
+                                                  <li class="divider"></li> 
+                                                <li><a href="#">Award</a></li>    
+                                             </ul> 
+                                        </li>  
+                                      
+                                         
+                                        
+                                         <li class="dropdown" id="menuitem"> 
+                                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">&nbsp;&nbsp;&nbsp;<i class="fa fa-cog fa-fw" style="font-size:17px;color:blue;"></i>Service <span class="caret"></span> </a> <ul class="dropdown-menu"> 
+                                                <li><a href="#">Variety acts</a></li>
+                                                  <li class="divider"></li> 
+                                                <li><a href="#">Speakers</a></li> 
+                                                  <li class="divider"></li> 
+                                                <li><a href="officiant.html">Officiants</a></li>
+                                                <li class="divider"></li> 
+                                                <li><a href="photographer.html">Photographers</a></li>
+                                                <li class="divider"></li> 
+                                                <li><a href="partyrental.html">Party Rentals</a></li> 
+                                                  <li class="divider"></li> 
+                                                <li><a href="#">Lightning</a></li> 
+                                             <li class="divider"></li> 
+                                                <li><a href="#">Decoration/Flourist</a></li>
+                                                <li class="divider"></li> 
+                                                <li><a href="#">Food/Drinks</a></li>
+                                             </ul> 
+                                        </li>  
+                                       
+                                            
+                                        
+                                        
+                                              <li >
+                                             
+                                             <a href="login.html" > <button type="button" class="btn btn-primary" style="color:white; font-weight:bold; background-color:black; margin-top: 6px; border:1px solid black">Login</button></a>
+                                        </li>
+                                           <li>
+                                               <a href="registration.html"> <button type="button" class="btn btn-primary" style="color:white; font-weight:bold; margin-top: 6px;  background-color:darkblue;border:1px solid darkblue">Sign Up</button></a>
+                                        </li>
+                                       
+                                    </ul>
+                                  
+                                </div>
+                            </div>
+                        </nav>
+                                        
+                </header>
+            </div>
+        </div>
+    </div>
+            
+            <br/><br/>
+            
+            <div class="row" >
+                <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:gray;background-image:url(images/venue7.jpg); height:220px;">
+                    <header>
+                        <nav ><br/>
+                            <h1 style=" color:darkblue; margin-top:50px; text-align:center;">Book the perfect </h1>
+                            <h1 style="font-weight:bold; color:darkblue; margin-top:10px; text-align:center;">Wedding Venue</h1>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+            
+                                
+        <div class="container" style="text-align:center">                        
+            <div class="row" >
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                   
+                    <form class="form-inline" role="form">
+                            <div class="form-group"> 
+                                   <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                                        <p style="text-align:center">Am Looking For</p>
+                                        <select class="form-control" id="select" > 
+                                            <option>Choose prefferable Wedding Venue</option> 
+                                            <option>2</option> 
+                                            <option>3</option> 
+                                            <option>4</option> 
+                                            <option>5</option> 
+                                            <option>6</option> 
+                                            <option>7</option> 
+                                            <option>8</option> 
+                                            <option>9</option> 
+                                            <option>10</option> 
+                                        </select> 
+                                </div>
+                                    
+                                <div class="form-group" > 
+                                   <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                                    <p style="text-align:center">In What Location</p>
+                                        <select class="form-control" id="select" > 
+                                            <option>Lagos</option> 
+                                            <option>2</option> 
+                                            <option>3</option> 
+                                            <option>4</option> 
+                                            <option>5</option> 
+                                            <option>6</option> 
+                                            <option>7</option> 
+                                            <option>8</option> 
+                                            <option>9</option> 
+                                            <option>10</option> 
+                                        </select> 
+                                </div>
+                        
+                         
+                        <div class="form-group">
+                            <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                            <p style="text-align:center">Choose Date & Time</p>
+                            <div class='input-group date' >
+                                    <input type='text' class="form-control" placeholder="Select Date & Time" id='datetimepicker1' />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+        
+ 
+                       
+                          <div class="form-group"> 
+                                <div class="col-sm-offset-2 col-sm-2"> 
+                                         <a href="login.html" > <button type="button" class="btn btn-primary" style="color:white; font-weight:bold; margin-top:45px; background-color:darkblue; border:1px solid darkblue">SEARCH</button></a>  
+                                </div> 
+                        </div> 
+                    </form>    
+                </div>
+            </div>
+        </div>
+            <br/><br/>        
+                        <div class="container">
+                            <div class="row">
+                                 <div  style=" width:15%; background-color:aliceblue; box-shadow:10px 12px 12px 0px rgba(22, 44, 44, 0.70);  margin-left:40%; border-radius:20%;"> 
+                                    <i class=" fa fa-street-view" style="font-size:140px;  margin-left:33px; color:darkblue;"></i>
+                                </div>
+                            </div>
+                        </div>
+            
+               <div class="container">
+                   <div class="row">
+                        <h2>...........................................................</h2>
+                       <div class="col-md-2 col-sm-2 col-xs-2">
+                           
+                       </div>
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <article>
+                               
+                               <p>.........................................................</p>
+                           </article>
+                       </div>
+                       <div class="col-md-2 col-sm-2 col-xs-2">
+                           
+                       </div>
+                   </div>
+                </div>
+               
+            <br/><br/>
+        
+           <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/venue7.jpg" style="height:730px; width:151%"/>
+                       </div>
+                       
+                   </div>
+                </div>
+               
+            <br/><br/>
+                    
+        
+             <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/venue10.jpg" style="height:730px; width:151%"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+         <br/><br/>
+        
+          <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/venue8.jpg" style="height:730px; width:151%"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+      
+               
+            <br/><br/>
+       
+            <div class="container">
+                   <div class="row">
+                        
+                       
+                       <div class="col-md-5 col-sm-5 col-xs-5">
+                           <img src="images/venue6.jpg" style="width:120%; height:600px;"/>
+                       </div>
+                       
+                       <div class="col-md-1 col-sm-1 col-xs-1">
+                          
+                       </div>
+                       
+                      <div class="col-md-5 col-sm-5 col-xs-5">
+                           <img src="images/venue5.jpg" style="width:120%; height:600px;"/>
+                       </div>
+                        
+                       <div class="col-md-1 col-sm-1 col-xs-1">
+                          
+                       </div>
+                   </div>
+                </div>
+            <br/><br/>
+        
+         <div class="container">
+                   <div class="row">
+                        
+                       
+                       <div class="col-md-5 col-sm-5 col-xs-5">
+                           <img src="images/venue1.jpg" style="width:120%; height:600px;"/>
+                       </div>
+                       
+                       <div class="col-md-1 col-sm-1 col-xs-1">
+                          
+                       </div>
+                       
+                      <div class="col-md-5 col-sm-5 col-xs-5">
+                           <img src="images/venue3.jpg" style="width:120%; height:600px;"/>
+                       </div>
+                        
+                       <div class="col-md-1 col-sm-1 col-xs-1">
+                          
+                       </div>
+                   </div>
+                </div>
+        
+            <br/><br/>
+        
+        
+          <div class="container">
+            <div class="row"  >
+                    <div class="col-md-12">
+                        <h2 style="text-align:center;">FEATURED CLIENT/PARTNERS</h2>
+                         <div class="container">
+                                <div class="row" >
+                    
+                                    <div class="row">
+                                
+                                        <div class="col-md-2 col-sm-11 col-xs-11">  
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-2 col-sm-11 col-xs-11">
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-2 col-sm-11 col-xs-11">
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-2 col-sm-11 col-xs-11">
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-2 col-sm-11 col-xs-11">
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-2 col-sm-11 col-xs-11">
+                                            <h3 id="partnertext">Photographer</h3>
+                                            <img src="images/cater4.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+             <br/>
+            
+            
+            <div class="row" style="box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.37); background-color:#696969;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <header>   <!--Header SEction of the site -->
+                        <nav class="navbar navbar-default" style="height:80px;box-shadow: 0px 1px 2px rgba(0,0,0,0.1);" id="footer">
+                
+                            <div class="container" style="height:100%">
+                                <h3 id="stay">Stay Connected</h3>
+                                <h5 id="stay">Stay with us || Connect with us || Help and Support</h5>
+                            </div>
+                        </nav>
+                                        
+                </header>
+                
+               
+                        <div class="container">
+                                <div class=row>
+                                        <div class="col-md-2 col-sm-12 col-xs-12"> 
+                                            <h4 id="footertext">Get Started</h4>
+                                            <ul id="footer">
+                                                <a href="#">Login</a><br/>
+                                                 <a href="#">Sign Up</a><br/>
+                                                 <a href="#">Features</a><br/>
+                                                 <a href="#">How it works</a><br/>
+                                                 <a href="#">Pricing</a><br/>
+                                                
+                                            </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Comapany</h4>
+                                                 <ul id="footer">
+                                                     <a href="#">About Us</a><br/>
+                                                    <a href="#">Contact Us</a><br/>
+                                                    <a href="#">Security</a><br/>
+                                                    <a href="#">Tell a friend</a><br/>
+                                                
+                                                </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Support</h4>
+                                                <ul id="footer">
+                                                     <a href="#">Live</a><br/>
+                                                    <a href="#">Chat</a><br/>
+                                                    <a href="#">Help Center</a><br/>
+                                                </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Partyvendors</h4>
+                                                <ul id="footer">
+                                                     <a href="#">privacy policy</a><br/>
+                                                    <a href="#">Terms and Conditions</a><br/>
+                                                    
+                                                </ul>
+                                        </div>
+                                    <br/>
+                                        
+                                        <div class="col-md-4 col-sm-12 col-xs-12">
+                                             <h4 id="media">Connect with us </h4>
+                                            <span id="mediaspan">
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                 
+                                                
+                                            </span>
+                                        </div>
+                                 </div>
+                        </div>
+                   
+            </div>
+        </div>
+   
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+                    <script src="datetimepicker/jquery.datetimepicker.full.js"></script>
+                    <!-- Include all compiled plugins (below), or include individual files as needed -->
+                    <script src="js/bootstrap.min.js"></script>
+        
+                        <!--plugin that makes navbar menu dropdown active-->
+                    <script type="text/javascript" src="js/dropdown.js"></script>
+                    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"> </script>
+    
+                    
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </body>
+</html>

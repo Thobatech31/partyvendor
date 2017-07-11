@@ -1,0 +1,249 @@
+  #navback{
+                background-color:white;
+                height: 82px;
+  
+            }
+    
+            #navbar-collapse-header ul li a{
+                color: #696969;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: white;
+            }
+
+
+#fonticons{
+    font-size: 19px;
+    color:darkblue;
+}
+
+#login{
+color:white; 
+    font-weight:bold; 
+    background-color:black;
+    margin-top: 6px; 
+    border:1px solid white
+}
+
+#signup{
+color:white; 
+    font-weight:bold; 
+    margin-top: 6px;  
+    background-color:darkblue;
+    border:1px solid white
+    }
+            #menuitem{
+                margin-top: 15px;
+               
+            }
+            
+              #media{
+                color: aliceblue;
+                font-weight: bold;
+                   margin-left: 63px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            #mediaspan{
+                margin-left: 60px;
+            }
+            #categories{
+                  text-align: center;  
+                
+            }
+            
+            #recentactivities{
+                 text-align: center;
+            }
+            
+            #imagge{
+                height:500px;
+                width: 100%;
+            }
+            
+            
+         
+            
+            .title{
+               color: aliceblue;
+                font-weight: bold;
+                margin-left: 38px;
+               font-family: 'Roboto', serif; 
+            }
+           
+            
+            .carousel-caption {
+                position: absolute;
+                bottom: 35%;
+                font-weight:bold
+                text-align: center;
+                z-index: 20;
+                color: white;
+                font-size:30px;
+                text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+   
+            
+              
+            h2{
+                text-align: center;
+               color: black;
+                font-weight: bold;
+                 font-family: 'Scope One', serif;
+            }  
+            
+         
+            #categorytext{
+                margin-left: 140px;
+                color:  black;
+                font-weight: bold;
+                font-size: 20px;
+               font-family: 'Scope One', sans-serif;
+            }
+
+            
+            
+             #footer{
+                background-color:#191970;
+                border: 1px solid #191970;
+            }
+            
+            #footertext{
+                color: aliceblue;
+                font-weight: bold;
+                margin-left: 20px;
+               font-family: 'Roboto', serif;
+        
+            }
+            
+            #partyvendor{
+                 color:darkgray;
+                font-weight: bold;
+                font-size: 25px;
+               font-family: 'Roboto', serif;
+            }
+            
+            
+           
+            #stay{
+                color: aliceblue;
+                font-weight:bold;
+                font-size: 16px;
+                text-align: center;
+                 font-family: 'Scope One', serif;
+            }
+             
+            b{
+                color: darkgray;
+                font-weight: bold;
+                 font-family: 'Scope One', serif;
+            }
+                  
+            #logo{
+                height: 50px;
+               width: 70%;
+                
+            }
+            
+           
+            
+             #footer a{
+                color: aliceblue;  
+                 margin-left: 20px;
+                  font-family: 'Scope One', sans-serif;
+                
+        
+            }
+            
+            #partnertext{
+                text-align: center;
+                 font-family: 'Scope One', serif;
+            }    
+            
+            #categoriecontainer{
+                border: 2px solid white;
+                width: 87%;
+             
+                
+            }
+            
+             
+            #partner{
+                width: 80%;
+                height: 10%;
+            }
+            
+            .img-thumbnail{
+                opacity:0.8;
+            }
+            
+            .img-thumbnail:hover{
+                transform: scale(1.1);
+                opacity: 2;
+                -webkit-transform:scale(1.1);
+                -moz-transform:scale(1.1);
+            }
+            
+                 .fa{
+                opacity:0.9;
+                     
+            }
+            
+            
+             .fa:hover{
+                transform: scale(1.3);
+                opacity: 1;
+                -webkit-transform:scale(1.3);
+                -moz-transform:scale(1.3);
+                 color: white;
+            }
+            
+                   .material-icons{
+                opacity:0.9;
+            }
+            
+            
+             .material-icons:hover{
+                transform: scale(1.3);
+                opacity: 1;
+                -webkit-transform:scale(1.3);
+                -moz-transform:scale(1.3);
+            }
+            
+            #icons{
+                margin-left: 140px;
+            
+            }
+            
+            .card-title{
+                 text-align: center;
+               color:  black;
+                font-weight: bold;
+                 font-family: 'Scope One', serif;
+            }
+
+
+.card-text{
+color:  #696969;
+    text-align: center;
+}
+    
+
+
+#containerimage{
+    height:auto;
+    width:100%; 
+    display:block;
+    
+}
+
+
+   
+            #recentimagge{
+                 height:auto;
+                width: 100%;
+                display: block;
+            }
+

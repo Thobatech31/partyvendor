@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--BOOTSRAP-->
+                  <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+          <link href="datetimepicker/jquery.datetimepicker.css" rel="stylesheet">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Scope+One">
+        
+       
+        
+          <!-- Material Design Bootstrap -->
+        <link href="mdfree/css/mdb.min.css" rel="stylesheet">
+        
+         <!--offline bootsrap and css link incase of no internet-->
+        
+         <link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.min.css"/>
+		          <script type="text/javascript" href="bootstrap\js\bootstrap.min.js"></script>
+                         <link rel="stylesheet" type="text/css" href="css/subcategories.css"/>
+
+       
+    </head>
+    
+    <body>
+         <!--navber header sections-->
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <header>   <!--Header SEction of the site -->
+                        <nav class="navbar navbar-default navbar-fixed-top" id="navback">
+                
+                            <div class="container" >
+                                <div class="navbar-header">
+                                        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-header" class="navbar-toggle collapsed">
+                                            <span class="icon-bar"></span> 
+                                            <span class="icon-bar"></span> 
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a href="#" class="navbar-brand ">
+                                            <img src="images/logo2.PNG"  id="logo"/>
+                                        </a>
+                                    </div>
+                                <div class="collapse navbar-collapse" id="navbar-collapse-header">
+                                    <ul class="nav navbar-nav navbar-right">
+                                            <li class="active" id="menuitem"><a href="index.php"><i class="fa fa-home fa-fw" id="fonticons"></i>Home</a></li>
+                                        
+                                            <li id="menuitem"><a href="#"><i class="fa fa-pencil fa-fw" id="fonticons"></i>Blog</a></li> 
+                                        
+                                            <li class="dropdown" id="menuitem"> 
+                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-asl-interpreting fa-fw" id="fonticons"></i> Portfolio <span class="caret"></span> </a> 
+                                                <ul class="dropdown-menu"> 
+                                                    <li><a href="#">Gallery</a></li>
+                                                   
+                                                    <li><a href="#">Testimony</a></li> 
+                                                    
+                                                    <li><a href="#">Award</a></li>    
+                                                </ul> 
+                                            </li>  
+                                      
+                                         
+                                        
+                                            <li class="dropdown" id="menuitem"> 
+                                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-cog   fa-fw" id="fonticons"></i>Service <span class="caret"></span> </a> <ul    class="dropdown-menu"> 
+                                                    <li><a href="#">Variety acts</a></li>
+                                                  
+                                                    <li><a href="#">Speakers</a></li> 
+                                                
+                                                    <li><a href="officiant.html">Officiants</a></li>
+                                                   
+                                                    <li><a href="photographer.html">Photographers</a></li>
+                                                   
+                                                    <li><a href="partyrental.html">Party Rentals</a></li> 
+                                                   
+                                                    <li><a href="#">Lightning</a></li> 
+                                                   
+                                                    <li><a href="#">Decoration/Flourist</a></li>
+                                                 
+                                                    <li><a href="#">Food/Drinks</a></li>
+                                                </ul> 
+                                            </li>  
+                                       
+                                            
+                                      
+                                        
+                                              <li >
+                                             
+                                                    <a href="login.html" > <button type="button" class="btn btn-primary" id="login">Login</button></a>
+                                              </li>
+                                           <li>
+                                                <a href="registration.html"> <button type="button" class="btn btn-primary" id="signup">Sign Up</button></a>
+                                            </li>
+                                       
+                                        </ul>
+                                  
+                                </div>
+                            </div>
+                        </nav>                    
+                    </header>
+                </div>
+            </div>
+        </div>
+            
+            <br/><br/>
+            
+            <div class="row" >
+                <div class="col-md-12 col-sm-12 col-xs-12" style="background-color:gray;background-image:url(images/ph.jpg); height:220px;">
+                    <header>
+                        <nav ><br/>
+                            <h1 style=" color:darkblue; margin-top:50px; text-align:center;">Book the perfect </h1>
+                            <h1 style="font-weight:bold; color:darkblue; margin-top:10px; text-align:center;"> Professional Photographer</h1>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+            
+      <div class="container" style="text-align:center">                        
+            <div class="row" >
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                   
+                    <form class="form-inline" role="form">
+                            <div class="form-group"> 
+                                   <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                                        <p style="text-align:center">Am Looking For</p>
+                                        <select class="form-control" id="select" > 
+                                            <option>Choose Photographer</option> 
+                                            <option>2</option> 
+                                            <option>3</option> 
+                                            <option>4</option> 
+                                            <option>5</option> 
+                                            <option>6</option> 
+                                            <option>7</option> 
+                                            <option>8</option> 
+                                            <option>9</option> 
+                                            <option>10</option> 
+                                        </select> 
+                                </div>
+                                    
+                                <div class="form-group" > 
+                                   <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                                    <p style="text-align:center">In What Location</p>
+                                        <select class="form-control" id="select" > 
+                                            <option>Lagos</option> 
+                                            <option>2</option> 
+                                            <option>3</option> 
+                                            <option>4</option> 
+                                            <option>5</option> 
+                                            <option>6</option> 
+                                            <option>7</option> 
+                                            <option>8</option> 
+                                            <option>9</option> 
+                                            <option>10</option> 
+                                        </select> 
+                                </div>
+                        
+                         
+                        <div class="form-group">
+                            <label for="Country" class="col-md-3 col-sm-3 col-xs-3  control-label"></label><br/>
+                            <p style="text-align:center">Choose Date & Time</p>
+                            <div class='input-group date' >
+                                    <input type='text' class="form-control" placeholder="Select Date & Time" id='datetimepicker1' />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+        
+ 
+                       
+                          <div class="form-group"> 
+                                <div class="col-sm-offset-2 col-sm-2"> 
+                                         <a href="login.html" > <button type="button" class="btn btn-primary" style="color:white; font-weight:bold; margin-top:45px; background-color:black; border:1px solid white">SEARCH</button></a>  
+                                </div> 
+                        </div> 
+                    </form>    
+                </div>
+            </div>
+        </div>    
+            <br/><br/>        
+                        <div class="container">
+                            <div class="row">
+                                  <div  id="wrappersideimage"> 
+                                    <i class=" fa fa-camera" id="middleimage"></i>
+                                </div>
+                            </div>
+                        </div>
+           
+               <div class="container">
+                   <div class="row">
+                        <h2>Professional & Lifestyle Photography For The Simple, Sassy And Stylish Clients.</h2>
+                       <div class="col-md-2 col-sm-2 col-xs-2">
+                           
+                       </div>
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <article>
+                               
+                               <p>Professional photographers are experts at capturing those special moments in time that you want to keep forever. With the advanced technologies in digital photography and photo editing today, your photos can be viewed and edited in real-time. </p>
+                           </article>
+                       </div>
+                       <div class="col-md-2 col-sm-2 col-xs-2">
+                           
+                       </div>
+                   </div>
+                </div>
+               
+            <br/><br/>
+        
+         
+        <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto601.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+         <br/><br/>
+                    
+     
+         <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto701.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        <br/><br/>
+        
+        
+            <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto101.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+        
+        
+         <br/><br/>
+           <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto303.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+               
+            <br/><br/>
+        
+        
+            <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto401.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+        
+        
+         <br/><br/>
+        
+        
+       
+        
+                  <div class="container">
+                   <div class="row">
+                       
+                       <div class="col-md-8 col-sm-8 col-xs-8">
+                           <img src="images/traditionalphoto901.jpg" class="sideimages1"/>
+                       </div>
+                       
+                   </div>
+                </div>
+        
+        
+        
+         <br/><br/>
+         
+     
+        <div class="container">
+                <div class="row"  >
+                    <div class="col-md-12">
+                        <h2>FEATURED CLIENT/PARTNERS</h2>
+                            <div class="container">
+                                <div class="row" >
+                    
+                                    <div class="row">
+                                
+                                        <div class="col-md-3 col-sm-11 col-xs-11">  
+      
+                                            <img src="images/agitator.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/microsoft.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/siso.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/oracle.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        
+                                    </div>
+                    
+                                </div>
+                            </div>
+                        
+                        <br/>
+                         <div class="container">
+                                <div class="row" >
+                    
+                                    <div class="row">
+                                
+                                        <div class="col-md-3 col-sm-11 col-xs-11">  
+                                            
+                                            <img src="images/ibm.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/huawei.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/gov.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        <div class="col-md-3 col-sm-11 col-xs-11">
+                                            
+                                            <img src="images/firs.jpg" class="img-thumbnail" id="partner">
+                                        </div>
+                                        
+                                    </div>
+                    
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+             
+             <br/>
+            
+            
+            <div class="row" style="box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.37); background-color:#191970;">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <header>   <!--Header SEction of the site -->
+                        <nav class="navbar navbar-default" style="height:80px;box-shadow: 0px 1px 2px rgba(0,0,0,0.1);" id="footer">
+                
+                            <div class="container" style="height:100%">
+                                <h3 id="stay">Stay Connected</h3>
+                                <h5 id="stay">Stay with us || Connect with us || Help and Support</h5>
+                            </div>
+                        </nav>
+                                        
+                </header>
+                
+               
+                        <div class="container">
+                                <div class=row>
+                                        <div class="col-md-2 col-sm-12 col-xs-12"> 
+                                            <h4 id="footertext">Get Started</h4>
+                                            <ul id="footer">
+                                                <a href="#">Login</a><br/>
+                                                 <a href="#">Sign Up</a><br/>
+                                                 <a href="#">Features</a><br/>
+                                                 <a href="#">How it works</a><br/>
+                                                 <a href="#">Pricing</a><br/>
+                                                
+                                            </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Comapany</h4>
+                                                 <ul id="footer">
+                                                     <a href="#">About Us</a><br/>
+                                                    <a href="#">Contact Us</a><br/>
+                                                    <a href="#">Security</a><br/>
+                                                    <a href="#">Tell a friend</a><br/>
+                                                
+                                                </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Support</h4>
+                                                <ul id="footer">
+                                                     <a href="#">Live</a><br/>
+                                                    <a href="#">Chat</a><br/>
+                                                    <a href="#">Help Center</a><br/>
+                                                </ul>
+                                        </div>
+                                    
+                                        <div class="col-md-2 col-sm-12 col-xs-12">
+                                            <h4 id="footertext">Partyvendors</h4>
+                                                <ul id="footer">
+                                                     <a href="#">privacy policy</a><br/>
+                                                    <a href="#">Terms and Conditions</a><br/>
+                                                    
+                                                </ul>
+                                        </div>
+                                    <br/>
+                                        
+                                        <div class="col-md-4 col-sm-12 col-xs-12">
+                                             <h4 id="media">Connect with us </h4>
+                                            <span id="mediaspan">
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                  <a href="http//:www.facebook.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a> 
+                                                 <a href="http//:www.twitter.com">
+                                                     <span class="fa-stack fa-lg">
+                                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                                        <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                                                    </span>
+                                                </a>
+                                                 
+                                                
+                                            </span>
+                                        </div>
+                                 </div>
+                        </div>
+                   
+            </div>
+        </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                    
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+                    <script src="datetimepicker/jquery.datetimepicker.full.js"></script>
+                    <!-- Include all compiled plugins (below), or include individual files as needed -->
+                    <script src="js/bootstrap.min.js"></script>
+        
+                        <!--plugin that makes navbar menu dropdown active-->
+                    <script type="text/javascript" src="js/dropdown.js"></script>
+                    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"> </script>
+                            
+        
+         <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+         <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="mdfree/js/tether.min.js"></script>
+        <script type="text/javascript" src="mdfree/js/bootstrap.min.js"> </script>
+                    
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </body>
+</html>
